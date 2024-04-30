@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 
 async function scrapeData() {
 try {
-    const url = "https://react-bootstrap.netlify.app/docs/components/cards/" ; 
+    const url = "https://actu.fr/economie/" ; 
      const response = await axios.get(url);
     const $ = cheerio.load(response.data);
 
