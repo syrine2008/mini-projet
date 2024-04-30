@@ -1,0 +1,9 @@
+.pagination .page-link {
+    color: black; /* Couleur du texte pour les boutons de pagination inactifs */
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #dc3545; /* Couleur de fond pour le bouton de pagination actif */
+    border-color:#dc3545; /* Couleur de la bordure pour le bouton de pagination actif */
+    color: white; /* Couleur du texte pour le bouton de pagination actif */
+}
